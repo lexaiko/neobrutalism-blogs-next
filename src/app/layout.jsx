@@ -23,24 +23,24 @@ export const metadata = {
     'eko bagus susanto',
     'eiko alexandra',
     'lexaiko',
-    'brutalism blog',
+    "lexaiko's blog",
     'next.js blog',
-    'desain brutal',
+    'neobrutalism design',
     'web teknologi indonesia',
   ],
-  authors: [{ name: 'Eko Bagus Susanto', url: 'https://eikoalexandra.my.id' }],
+  authors: [{ name: 'Eko Bagus Susanto', url: 'https://blog.eikoalexandra.my.id' }],
   creator: 'Eko Bagus Susanto',
   alternates: {
-    canonical: 'https://eikoalexandra.my.id/',
+    canonical: 'https://blog.eikoalexandra.my.id/',
   },
   openGraph: {
     title: 'Lexaiko blog by Eko Bagus Susanto',
-    description: 'Blog brutal tentang teknologi, desain, dan hidup digital. Dibuat oleh Eko Bagus Susanto (alias Lexaiko).',
-    url: 'https://eikoalexandra.my.id',
+    description: 'Blog lexaiko tentang teknologi, desain, dan hidup digital. Dibuat oleh Eko Bagus Susanto (alias Lexaiko).',
+    url: 'https://blog.eikoalexandra.my.id',
     siteName: 'Lexaiko blog',
     images: [
       {
-        url: '/logo.webp',
+        url: 'https://blog.eikoalexandra.my.id/logo.webp',
         width: 1200,
         height: 630,
         alt: 'Lexaiko blog by Eko Bagus Susanto',
@@ -52,9 +52,9 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Eko Bagus Susanto — Lexaiko blog',
-    description: 'Brutalist tech & design blog by Lexaiko (a.k.a. Eiko Alexandra)',
+    description: 'web tech & design blog by Lexaiko (a.k.a. Eiko Alexandra)',
     creator: '@lexaiko_id',
-    images: ['/logo.webp'],
+    images: ['https://blog.eikoalexandra.my.id/logo.webp'],
   },
 }
 
