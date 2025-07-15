@@ -5,6 +5,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: '',         // ⬅️ WAJIB kosong kalau pakai custom domain
+  assetPrefix: '',      // ⬅️ WAJIB kosongin juga!
 };
+
 
 export default nextConfig;
