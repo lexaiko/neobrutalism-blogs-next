@@ -4,10 +4,11 @@
   "private": true,
 "scripts": {
   "dev": "next dev",
-  "build": "next build && next-sitemap && next export",
+  "build": "next build && next-sitemap", 
   "start": "next start",
   "lint": "next lint"
-},
+}
+
 
   "dependencies": {
     "gray-matter": "^4.0.3",
